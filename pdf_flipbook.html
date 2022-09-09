@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.js"></script>
+
+<link rel="stylesheet" type="text/css" href="css/flipbook.style.css">
+<link rel="stylesheet" type="text/css" href="css/font-awesome.css">
+
+<script src="js/flipbook.min.js"></script>
+
+<script type="text/javascript">
+
+    $(document).ready(function () {
+        $("#container").flipBook({
+            pdfUrl:"pdf/book2.pdf",
+            backgroundPattern:"images/patterns/pattern-eq4r.png",
+            background:'url("images/patterns/pattern-eq4r.png")',
+            skin:'dark'
+        });
+
+    })
+</script>
+<style>
+    body{
+        background:url("images/patterns/pattern-eq4r.png");
+    }
+</style>
+
+</head>
+
+<body>
+<div id="container">
+    
+</div>
+
+</body>
+
+</html>
