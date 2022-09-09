@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Barlow">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.js"></script>
+
+<link rel="stylesheet" type="text/css" href="css/flipbook.style.css">
+<link rel="stylesheet" type="text/css" href="css/font-awesome.css">
+
+<script src="js/flipbook.min.js"></script>
+
+
+
+<style type="text/css">
+    .bookshelf .thumb{
+        display: inline-block;
+        cursor: pointer; 
+        margin: 0px 0.5%; 
+        width: 15% !important; 
+        box-shadow:0px 1px 3px rgba(0,0,0,.3);
+        max-width:100px;
+    }
+    .bookshelf .thumb img{
+        width:100%; 
+        display:block; 
+        vertical-align:top;
+    }
+    .bookshelf .shelf-img{
+        z-index:0; 
+        height: auto; 
+        max-width: 100%; 
+        vertical-align: top; 
+        margin-top:-12px; 
+    }
+    .bookshelf .covers{
+        width:100%; 
+        height:auto; 
+        z-index: 99; 
+        position: relative;
+        text-align:center;
+    }
+    .bookshelf{
+        text-align: center;
+        padding:0px;
+    }
+    .heading11{
+        font-family: "Barlow";
+        text-shadow: 1px 1px grey;
+    }
+    .thumb{
+        margin-left: 20px !important;
+        margin-right: 20px !important;
+    }
+    body{
+        background:url("images/patterns/pattern-eq4r.png");
+    }
+</style>
+
+</head>
+
+<body>
+
+
+    <div class="bookshelf">
+        <br><br>
+        <div class="heading11"><h1>KENDRIYA VIDYALAYA BULANDSHAHR <br>e-Patrika Shelf</h1>
+        </div>
+        <br><br><br>
+        <div class="covers">
+            <a href="pdf_flipbook.html"><div class="thumb book-1"><img src="images/book2/thumb1.jpg"></div></a>
+            <a href="pdf_flipbook.html"><div class="thumb book-1"><img src="images/book2/thumb1.jpg"></div></a>
+            <a href="pdf_flipbook.html"><div class="thumb book-1"><img src="images/book2/thumb1.jpg"></div></a>
+           
+        </div>
+        <img class="shelf-img"  src="images/shelf_wood.png">
+    </div>
+  
+
+    
+
+</body>
+
+</html>
